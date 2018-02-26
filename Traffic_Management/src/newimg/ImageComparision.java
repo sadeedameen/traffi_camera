@@ -10,12 +10,15 @@ package newimg;
  * @author sadeed
  */
 // Java Program to compare two images
+import java.awt.Component;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import java.io.File;
+import java.io.IOException;
 import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
  
 class ImageComparision  implements Runnable
 {
@@ -91,9 +94,8 @@ class ImageComparision  implements Runnable
             // There are 255 values of pixels in total
             percentage = (avg_different_pixels /
                                             255) * 100;
- 
-            System.out.println("Difference Percentage-->" +
-                                                percentage);
+            percentage=(percentage*5)%100;
+            System.out.println("Difference Percentage-->" +percentage);
             
             try {
                 Thread.sleep(1000);
@@ -115,6 +117,15 @@ class ImageComparision  implements Runnable
     public double traffic()
     {
         return percentage;
+    }
+    public void getVideo()
+    {
+        try {
+        java.awt.Desktop.getDesktop().browse(java.net.URI.create("http://"+Ipaddr+":8080/browserfs.html"));
+        } catch (IOException  e) { 
+            Component x = null;
+        JOptionPane.showMessageDialog(x, "Please check camera modules", "Connection Error", 1);
+    }
     }
     public void Stop(){
         loop=false;

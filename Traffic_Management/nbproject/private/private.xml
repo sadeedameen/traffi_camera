@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/sadeed/NetBeansProjects/JavaApplication1/src/newimg/ImageComparision.java</file>
-            <file>file:/home/sadeed/NetBeansProjects/JavaApplication1/src/newimg/TrafficJn.java</file>
-            <file>file:/home/sadeed/NetBeansProjects/JavaApplication1/src/newimg/SetIP.java</file>
-            <file>file:/home/sadeed/NetBeansProjects/JavaApplication1/src/newimg/Img.java</file>
+            <file>file:/home/sadeed/NetBeansProjects/Traffic_Management/src/newimg/Setup.java</file>
+            <file>file:/home/sadeed/NetBeansProjects/Traffic_Management/src/newimg/TrafficRoad.java</file>
+            <file>file:/home/sadeed/NetBeansProjects/Traffic_Management/src/newimg/ImageComparision.java</file>
+            <file>file:/home/sadeed/NetBeansProjects/Traffic_Management/src/newimg/TrafficJn.java</file>
+            <file>file:/home/sadeed/NetBeansProjects/Traffic_Management/src/newimg/Traffic_Info.java</file>
         </group>
     </open-files>
 </project-private>

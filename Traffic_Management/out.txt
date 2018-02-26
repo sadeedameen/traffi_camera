@@ -1,0 +1,5 @@
+
+ Traffic  Road a->47.89782480525905
+ Traffic  Road a->24.998717729821962
+ Traffic  Road b->37.622531998910674
+ Traffic  Road d->31.466750068082785
